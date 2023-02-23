@@ -69,7 +69,8 @@ node createPhoneNumber.js
 ***5. Які є способи імпортувати модулі в ноду?***
 ##
 ```const { myFunc1, myFunc2 } = require('./index')
-import myFunc from './index';```
+import myFunc from './index';
+```
 
 ***6. Як пов'язані Google Chrome / Chrominium та Node.js?***
 ##
@@ -84,6 +85,6 @@ module.exports = sumCounter;
 const sumCounter = require('./module1')
 
 exports.sumCounter = function(a, b) { return a + b; };
-const {sumCounter} = require('./module1');```
-
+const {sumCounter} = require('./module1');
+```
 
