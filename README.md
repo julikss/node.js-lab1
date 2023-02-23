@@ -64,7 +64,8 @@ node createPhoneNumber.js
 
 ***5. Які є способи імпортувати модулі в ноду?***
 <br/>
-```const { myFunc1, myFunc2 } = require('./index')
+```
+const { myFunc1, myFunc2 } = require('./index')
 import myFunc from './index';
 ```
 
@@ -73,7 +74,8 @@ import myFunc from './index';
 
 ***7. Як можна дозволити імпортувати змінні з поточного модуля?***
 <br/>
-```module.exports = {sumCounter};
+```
+module.exports = {sumCounter};
 const {sumCounter} = require('./module1')
 
 module.exports = sumCounter;
