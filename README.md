@@ -67,6 +67,7 @@ node createPhoneNumber.js
 ```
 const { myFunc1, myFunc2 } = require('./index')
 import myFunc from './index';
+const { myFunc1, myFunc2 } = require('./index');
 ```
 
 ***6. Як пов'язані Google Chrome / Chrominium та Node.js?***
