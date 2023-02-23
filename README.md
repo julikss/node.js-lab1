@@ -70,7 +70,7 @@ import myFunc from './index';
 ```
 
 ***6. Як пов'язані Google Chrome / Chrominium та Node.js?***
-<br/>Node.js - платформа, яка була розроблена на базі движка V8, який був розроблений Google(both NodeJS and Chrome use the same V8 engine for executing JavaScript.)
+<br/>Node.js - платформа, яка була розроблена на базі движка V8, який був розроблений Google
 
 ***7. Як можна дозволити імпортувати змінні з поточного модуля?***
 <br/>
